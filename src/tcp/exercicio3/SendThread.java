@@ -1,7 +1,6 @@
-package tcp.exercicio1;
+package tcp.exercicio3;
 
 import java.io.DataOutputStream;
-import java.io.EOFException;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
@@ -30,11 +29,12 @@ public class SendThread extends Thread {
                 buffer = reader.nextLine();
 
                 send.writeUTF(buffer);
+                sleep(200);
             } while (!buffer.equals("SAIR"));
             send.close();
             ThreadSocket.close();
 
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
     } //run

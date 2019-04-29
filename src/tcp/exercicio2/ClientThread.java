@@ -1,4 +1,4 @@
-package tcp.exercico2;
+package tcp.exercicio2;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

@@ -4,12 +4,22 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.EOFException;
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.Socket;
+import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class ReceiveThread extends Thread {
     private DataInputStream receive;
     private Socket ThreadSocket;
+
+    public static void main(String[] args) throws IOException {
+        int serverPort = 6666;
+        InetAddress serverAddress = InetAddress.getByName("127.0.0.1");
+        Socket client = new Socket(serverAddress, serverPort);
+
+
+    }
 
     ReceiveThread(Socket ThreadSocket) {
         this.ThreadSocket = ThreadSocket;
@@ -28,6 +38,7 @@ public class ReceiveThread extends Thread {
             do {
                 buffer = receive.readUTF();
                 System.out.println("MSG: "+ buffer);
+
             } while (!buffer.equals("SAIR"));
             receive.close();
             ThreadSocket.close();

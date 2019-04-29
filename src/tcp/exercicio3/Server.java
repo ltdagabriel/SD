@@ -1,11 +1,9 @@
-package tcp.exercico2;
+package tcp.exercicio3;
 
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Server {
     public static void main(String[] args) {
@@ -14,7 +12,6 @@ public class Server {
 
             /* cria um socket e mapeia a porta para aguardar conexão */
             ServerSocket listenSocket = new ServerSocket(serverPort);
-            List<Socket> clientes = new ArrayList<>();
             while (true) {
                 System.out.println("Servidor aguardando conexão ...");
 
@@ -24,8 +21,7 @@ public class Server {
                 System.out.println("Cliente conectado ... Criando thread ...");
 
                 /* cria um thread para atender a conexão */
-                ClientThread c = new ClientThread(clientSocket,clientes);
-                clientes.add(clientSocket);
+                ClientManager c = new ClientManager(clientSocket);
                 /* inicializa a thread */
                 c.start();
             } //while

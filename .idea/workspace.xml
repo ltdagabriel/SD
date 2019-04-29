@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="435d8f26-f7be-4148-ae00-569e34aabb5e" name="Default Changelist" comment="" />
+    <list default="true" id="435d8f26-f7be-4148-ae00-569e34aabb5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/P2P_UDP/MulticastPeer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P2P_UDP/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp/exercicio3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp/exercicio3/ClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp/exercicio3/ReceiveThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp/exercicio3/SendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp/exercicio3/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp/exercicio3/compartilhado/dasd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp/exercicio3/compartilhado/kbj.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udp/exercicio1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udp/exercicio1/UDPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udp/exercicio1/UDPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/exercicio1/ReceiveThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp/exercicio1/ReceiveThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/exercicio1/SendThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp/exercicio1/SendThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/exercicio1/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp/exercicio1/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/exercico2/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp/exercicio2/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/exercico2/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/exercico2/MyChat.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp/exercicio2/Cliente.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/exercico2/MyChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp/exercicio2/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp/exercico2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp/exercicio2/Server.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +39,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tcp/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/SendThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/TCPServer.java">
+        <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/compartilhado/kbj.2">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/ClientManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="33" column="5" selection-start-line="8" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="840">
+              <caret line="68" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P2P_UDP/MulticastPeer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,46 +74,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/ClientThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/src/P2P_UDP/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/ClientThread.java">
+        <entry file="file://$PROJECT_DIR$/src/udp/exercicio1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/MyChat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/Server.java">
+        <entry file="file://$PROJECT_DIR$/src/udp/exercicio1/UDPClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,20 +107,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/Cliente.java">
+        <entry file="file://$PROJECT_DIR$/src/udp/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="80" lean-forward="true" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/udp/exercicio1/UDPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/MyChat.form">
-          <provider selected="true" editor-type-id="ui-designer" />
+        <entry file="file://$PROJECT_DIR$/src/tcp/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="40" column="21" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -109,6 +148,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cf</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/udp/exercicio1/exercicio2</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -118,8 +171,6 @@
         <option value="$PROJECT_DIR$/src/tcp/exercicio1/readme.md" />
         <option value="$PROJECT_DIR$/src/tcp/exercicio1/ClientTread.java" />
         <option value="$PROJECT_DIR$/src/tcp/exercicio1/TCPServer.java" />
-        <option value="$PROJECT_DIR$/src/tcp/exercicio1/ReceiveThread.java" />
-        <option value="$PROJECT_DIR$/src/tcp/exercicio1/SendThread.java" />
         <option value="$PROJECT_DIR$/src/tcp/exercicio1/TCPClient.java" />
         <option value="$PROJECT_DIR$/src/tcp/exercicio1/ClientThread.java" />
         <option value="$PROJECT_DIR$/src/tcp/exercico2/MyChat.form" />
@@ -128,6 +179,29 @@
         <option value="$PROJECT_DIR$/src/tcp/exercico2/SendThread.java" />
         <option value="$PROJECT_DIR$/src/tcp/exercico2/Server.java" />
         <option value="$PROJECT_DIR$/src/tcp/exercico2/ClientThread.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio2/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio1/SendThread.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio1/ReceiveThread.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio2/Cliente.form" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio2/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio3/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio3/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio3/Cliente.form" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio3/SendThread.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio3/ClientManager.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio3/ReceiveThread.java" />
+        <option value="$PROJECT_DIR$/src/tcp/P2P_UDP/MulticastPeer.java" />
+        <option value="$PROJECT_DIR$/src/tcp/P2P_UDP/readme.md" />
+        <option value="$PROJECT_DIR$/src/tcp/readme.md" />
+        <option value="$PROJECT_DIR$/src/P2P_UDP/MulticastPeer.java" />
+        <option value="$PROJECT_DIR$/src/tcp/exercicio3/Server.java" />
+        <option value="$PROJECT_DIR$/src/udp/exercicio1/readme.md" />
+        <option value="$PROJECT_DIR$/src/udp/exercicio1/main.java" />
+        <option value="$PROJECT_DIR$/src/udp/exercicio1/Main.java" />
+        <option value="$PROJECT_DIR$/src/udp/exercicio1/UDPServer.java" />
+        <option value="$PROJECT_DIR$/src/udp/readme.md" />
+        <option value="$PROJECT_DIR$/src/udp/exercicio1/UDPClient.java" />
       </list>
     </option>
   </component>
@@ -136,6 +210,9 @@
     <option name="y" value="77" />
     <option name="width" value="1291" />
     <option name="height" value="638" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -158,29 +235,14 @@
               <item name="SD" type="b2602c69:ProjectViewProjectNode" />
               <item name="SD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="udp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SD" type="b2602c69:ProjectViewProjectNode" />
               <item name="SD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="udp" type="462c0819:PsiDirectoryNode" />
               <item name="exercicio1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tcp" type="462c0819:PsiDirectoryNode" />
-              <item name="exercico2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tcp" type="462c0819:PsiDirectoryNode" />
-              <item name="exercico2" type="462c0819:PsiDirectoryNode" />
-              <item name="MyChat" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -191,17 +253,29 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="156" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tcp/exercico2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/udp/exercicio1" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/udp/exercicio1" />
+      <recent name="$PROJECT_DIR$/src/tcp/exercicio3" />
+      <recent name="$PROJECT_DIR$/src/tcp" />
+      <recent name="$PROJECT_DIR$/src/tcp/exercico2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tcp.exercicio1" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/tcp/exercico2" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tcp/P2P_UDP" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,13 +290,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cliente">
+  <component name="RunManager" selected="Application.UDPClient">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tcp.exercico2.Cliente" />
+      <option name="MAIN_CLASS_NAME" value="tcp.exercicio3.Cliente" />
       <module name="SD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tcp.exercico2.*" />
+          <option name="PATTERN" value="tcp.exercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,22 +304,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="tcp.Main" />
+    <configuration name="MulticastPeer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MulticastPeer" />
       <module name="SD" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MulticastPeer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P2P_UDP.MulticastPeer" />
+      <module name="SD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P2P_UDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tcp.exercico2.Server" />
+      <option name="MAIN_CLASS_NAME" value="tcp.exercicio3.Server" />
       <module name="SD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tcp.exercico2.*" />
+          <option name="PATTERN" value="tcp.exercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tcp.exercicio1.TCPClient" />
+    <configuration name="UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udp.exercicio1.UDPClient" />
       <module name="SD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tcp.exercicio1.*" />
+          <option name="PATTERN" value="udp.exercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,12 +350,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tcp.exercicio1.TCPServer" />
+    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udp.exercicio1.UDPServer" />
       <module name="SD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tcp.exercicio1.*" />
+          <option name="PATTERN" value="udp.exercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,10 +365,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cliente" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.TCPServer" />
-        <item itemvalue="Application.TCPClient" />
+        <item itemvalue="Application.UDPClient" />
+        <item itemvalue="Application.UDPServer" />
+        <item itemvalue="Application.MulticastPeer" />
       </list>
     </recent_temporary>
   </component>
@@ -303,16 +386,21 @@
       <workItem from="1554765069744" duration="3491000" />
       <workItem from="1554836218330" duration="5200000" />
       <workItem from="1555023135840" duration="1198000" />
+      <workItem from="1555272722698" duration="10115000" />
+      <workItem from="1555364246190" duration="8040000" />
+      <workItem from="1555457716589" duration="11000" />
+      <workItem from="1556046531847" duration="2480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11327000" />
+    <option name="totallyTimeSpent" value="31973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="77" width="1291" height="638" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27360776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2929782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,8 +408,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26744187" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32815534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2660194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,9 +417,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33009708" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32815534" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -357,46 +445,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/TCPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="30" selection-start-line="8" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/SendThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/ReceiveThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/SendThread.java" />
     <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/ReceiveThread.java" />
-    <entry file="file://$PROJECT_DIR$/src/tcp/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/tcp/Main.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="5" selection-start-line="8" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -413,43 +475,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/ClientThread.java">
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/SendThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="180">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/MyChat.java">
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio2/ClientThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="225">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/Cliente.java">
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio2/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/MyChat.form">
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/compartilhado/dasd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/ReceiveThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="42" selection-start-line="37" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio2/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/Cliente.form" />
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/Cliente.java" />
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio2/Cliente.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tcp/exercico2/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/tcp/P2P_UDP/MulticastPeer.class" />
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio1/TCPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/ReceiveThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/SendThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/compartilhado/kbj.2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/exercicio3/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="68" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P2P_UDP/MulticastPeer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tcp/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="40" column="21" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P2P_UDP/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udp/exercicio1/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="216" selection-start-line="12" selection-start-column="216" selection-end-line="12" selection-end-column="216" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udp/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="80" lean-forward="true" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udp/exercicio1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udp/exercicio1/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udp/exercicio1/UDPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
