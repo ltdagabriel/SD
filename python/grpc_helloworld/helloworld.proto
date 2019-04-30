@@ -3,18 +3,31 @@
 
 
 syntax = "proto3";
-
 // interface de serviço
-service Greeter {
-  rpc SayHello (HelloRequest) returns (HelloReply) {}
+service Book{
+    rpc Add(AddRequest) returns(AddReply){}
+    rpc Remove(RemoveRequest) returns(RemoveReply){}
+    rpc Consult(ConsultRequest) returns(ConsultReply){}
 }
 
 // mensagem de solicitação
-message HelloRequest {
+message AddRequest {
+  string name = 1;
+}
+message RemoveRequest {
+  string name = 1;
+}
+message ConsultRequest {
   string name = 1;
 }
 
 // mensagem de resposta
-message HelloReply {
+message AddReply {
+  string message = 1;
+}
+message RemoveReply {
+  string message = 1;
+}
+message ConsultReply {
   string message = 1;
 }

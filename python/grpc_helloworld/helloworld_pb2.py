@@ -20,21 +20,21 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\x10helloworld.proto\"\x1c\n\x0cHelloRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1d\n\nHelloReply\x12\x0f\n\x07message\x18\x01 \x01(\t23\n\x07Greeter\x12(\n\x08SayHello\x12\r.HelloRequest\x1a\x0b.HelloReply\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x10helloworld.proto\"\x1a\n\nAddRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1d\n\rRemoveRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1e\n\x0e\x43onsultRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1b\n\x08\x41\x64\x64Reply\x12\x0f\n\x07message\x18\x01 \x01(\t\"\x1e\n\x0bRemoveReply\x12\x0f\n\x07message\x18\x01 \x01(\t\"\x1f\n\x0c\x43onsultReply\x12\x0f\n\x07message\x18\x01 \x01(\t2~\n\x04\x42ook\x12\x1f\n\x03\x41\x64\x64\x12\x0b.AddRequest\x1a\t.AddReply\"\x00\x12(\n\x06Remove\x12\x0e.RemoveRequest\x1a\x0c.RemoveReply\"\x00\x12+\n\x07\x43onsult\x12\x0f.ConsultRequest\x1a\r.ConsultReply\"\x00\x62\x06proto3')
 )
 
 
 
 
-_HELLOREQUEST = _descriptor.Descriptor(
-  name='HelloRequest',
-  full_name='HelloRequest',
+_ADDREQUEST = _descriptor.Descriptor(
+  name='AddRequest',
+  full_name='AddRequest',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='name', full_name='HelloRequest.name', index=0,
+      name='name', full_name='AddRequest.name', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -53,19 +53,19 @@ _HELLOREQUEST = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=20,
-  serialized_end=48,
+  serialized_end=46,
 )
 
 
-_HELLOREPLY = _descriptor.Descriptor(
-  name='HelloReply',
-  full_name='HelloReply',
+_REMOVEREQUEST = _descriptor.Descriptor(
+  name='RemoveRequest',
+  full_name='RemoveRequest',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='message', full_name='HelloReply.message', index=0,
+      name='name', full_name='RemoveRequest.name', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -83,51 +83,225 @@ _HELLOREPLY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=50,
-  serialized_end=79,
+  serialized_start=48,
+  serialized_end=77,
 )
 
-DESCRIPTOR.message_types_by_name['HelloRequest'] = _HELLOREQUEST
-DESCRIPTOR.message_types_by_name['HelloReply'] = _HELLOREPLY
+
+_CONSULTREQUEST = _descriptor.Descriptor(
+  name='ConsultRequest',
+  full_name='ConsultRequest',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='name', full_name='ConsultRequest.name', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=79,
+  serialized_end=109,
+)
+
+
+_ADDREPLY = _descriptor.Descriptor(
+  name='AddReply',
+  full_name='AddReply',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='message', full_name='AddReply.message', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=111,
+  serialized_end=138,
+)
+
+
+_REMOVEREPLY = _descriptor.Descriptor(
+  name='RemoveReply',
+  full_name='RemoveReply',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='message', full_name='RemoveReply.message', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=140,
+  serialized_end=170,
+)
+
+
+_CONSULTREPLY = _descriptor.Descriptor(
+  name='ConsultReply',
+  full_name='ConsultReply',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='message', full_name='ConsultReply.message', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=172,
+  serialized_end=203,
+)
+
+DESCRIPTOR.message_types_by_name['AddRequest'] = _ADDREQUEST
+DESCRIPTOR.message_types_by_name['RemoveRequest'] = _REMOVEREQUEST
+DESCRIPTOR.message_types_by_name['ConsultRequest'] = _CONSULTREQUEST
+DESCRIPTOR.message_types_by_name['AddReply'] = _ADDREPLY
+DESCRIPTOR.message_types_by_name['RemoveReply'] = _REMOVEREPLY
+DESCRIPTOR.message_types_by_name['ConsultReply'] = _CONSULTREPLY
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-HelloRequest = _reflection.GeneratedProtocolMessageType('HelloRequest', (_message.Message,), dict(
-  DESCRIPTOR = _HELLOREQUEST,
+AddRequest = _reflection.GeneratedProtocolMessageType('AddRequest', (_message.Message,), dict(
+  DESCRIPTOR = _ADDREQUEST,
   __module__ = 'helloworld_pb2'
-  # @@protoc_insertion_point(class_scope:HelloRequest)
+  # @@protoc_insertion_point(class_scope:AddRequest)
   ))
-_sym_db.RegisterMessage(HelloRequest)
+_sym_db.RegisterMessage(AddRequest)
 
-HelloReply = _reflection.GeneratedProtocolMessageType('HelloReply', (_message.Message,), dict(
-  DESCRIPTOR = _HELLOREPLY,
+RemoveRequest = _reflection.GeneratedProtocolMessageType('RemoveRequest', (_message.Message,), dict(
+  DESCRIPTOR = _REMOVEREQUEST,
   __module__ = 'helloworld_pb2'
-  # @@protoc_insertion_point(class_scope:HelloReply)
+  # @@protoc_insertion_point(class_scope:RemoveRequest)
   ))
-_sym_db.RegisterMessage(HelloReply)
+_sym_db.RegisterMessage(RemoveRequest)
+
+ConsultRequest = _reflection.GeneratedProtocolMessageType('ConsultRequest', (_message.Message,), dict(
+  DESCRIPTOR = _CONSULTREQUEST,
+  __module__ = 'helloworld_pb2'
+  # @@protoc_insertion_point(class_scope:ConsultRequest)
+  ))
+_sym_db.RegisterMessage(ConsultRequest)
+
+AddReply = _reflection.GeneratedProtocolMessageType('AddReply', (_message.Message,), dict(
+  DESCRIPTOR = _ADDREPLY,
+  __module__ = 'helloworld_pb2'
+  # @@protoc_insertion_point(class_scope:AddReply)
+  ))
+_sym_db.RegisterMessage(AddReply)
+
+RemoveReply = _reflection.GeneratedProtocolMessageType('RemoveReply', (_message.Message,), dict(
+  DESCRIPTOR = _REMOVEREPLY,
+  __module__ = 'helloworld_pb2'
+  # @@protoc_insertion_point(class_scope:RemoveReply)
+  ))
+_sym_db.RegisterMessage(RemoveReply)
+
+ConsultReply = _reflection.GeneratedProtocolMessageType('ConsultReply', (_message.Message,), dict(
+  DESCRIPTOR = _CONSULTREPLY,
+  __module__ = 'helloworld_pb2'
+  # @@protoc_insertion_point(class_scope:ConsultReply)
+  ))
+_sym_db.RegisterMessage(ConsultReply)
 
 
 
-_GREETER = _descriptor.ServiceDescriptor(
-  name='Greeter',
-  full_name='Greeter',
+_BOOK = _descriptor.ServiceDescriptor(
+  name='Book',
+  full_name='Book',
   file=DESCRIPTOR,
   index=0,
   serialized_options=None,
-  serialized_start=81,
-  serialized_end=132,
+  serialized_start=205,
+  serialized_end=331,
   methods=[
   _descriptor.MethodDescriptor(
-    name='SayHello',
-    full_name='Greeter.SayHello',
+    name='Add',
+    full_name='Book.Add',
     index=0,
     containing_service=None,
-    input_type=_HELLOREQUEST,
-    output_type=_HELLOREPLY,
+    input_type=_ADDREQUEST,
+    output_type=_ADDREPLY,
+    serialized_options=None,
+  ),
+  _descriptor.MethodDescriptor(
+    name='Remove',
+    full_name='Book.Remove',
+    index=1,
+    containing_service=None,
+    input_type=_REMOVEREQUEST,
+    output_type=_REMOVEREPLY,
+    serialized_options=None,
+  ),
+  _descriptor.MethodDescriptor(
+    name='Consult',
+    full_name='Book.Consult',
+    index=2,
+    containing_service=None,
+    input_type=_CONSULTREQUEST,
+    output_type=_CONSULTREPLY,
     serialized_options=None,
   ),
 ])
-_sym_db.RegisterServiceDescriptor(_GREETER)
+_sym_db.RegisterServiceDescriptor(_BOOK)
 
-DESCRIPTOR.services_by_name['Greeter'] = _GREETER
+DESCRIPTOR.services_by_name['Book'] = _BOOK
 
 # @@protoc_insertion_point(module_scope)

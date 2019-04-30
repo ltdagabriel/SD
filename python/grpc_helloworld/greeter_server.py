@@ -40,22 +40,41 @@ import helloworld_pb2_grpc
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
 
 
-class Greeter(helloworld_pb2_grpc.GreeterServicer):
+class Book(helloworld_pb2_grpc.BookServicer):
+    books = []
 
-  def SayHello(self, request, context):
-    return helloworld_pb2.HelloReply(message='Hello, %s!' % request.name)
+    def Remove(self, request, context):
+        name = request.name
+        a = self.books.pop(name)
+        if a in self.books:
+            self.books.remove(a)
+            return helloworld_pb2.RemoveReply(name=str(True))
+        return helloworld_pb2.RemoveReply(name=str(True))
+
+    def Add(self, request, context):
+        name = request.name
+        self.books.append(name)
+        return helloworld_pb2.AddReply(name=str(True))
+
+    def Consult(self, request, context):
+        name = request.name
+
+        return helloworld_pb2.ConsultReply(name=str(name in self.books))
 
 
 def serve():
-  server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
-  helloworld_pb2_grpc.add_GreeterServicer_to_server(Greeter(), server)
-  server.add_insecure_port('[::]:50051')
-  server.start()
-  try:
-    while True:
-      time.sleep(_ONE_DAY_IN_SECONDS)
-  except KeyboardInterrupt:
-    server.stop(0)
+    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
+
+    helloworld_pb2_grpc.add_BookServicer_to_server(Book(), server)
+
+    server.add_insecure_port('[::]:50051')
+    server.start()
+    try:
+        while True:
+            time.sleep(_ONE_DAY_IN_SECONDS)
+    except KeyboardInterrupt:
+        server.stop(0)
+
 
 if __name__ == '__main__':
-  serve()
+    serve()

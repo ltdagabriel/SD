@@ -4,7 +4,7 @@ import grpc
 import helloworld_pb2 as helloworld__pb2
 
 
-class GreeterStub(object):
+class BookStub(object):
   """interface de serviço
   """
 
@@ -14,18 +14,42 @@ class GreeterStub(object):
     Args:
       channel: A grpc.Channel.
     """
-    self.SayHello = channel.unary_unary(
-        '/Greeter/SayHello',
-        request_serializer=helloworld__pb2.HelloRequest.SerializeToString,
-        response_deserializer=helloworld__pb2.HelloReply.FromString,
+    self.Add = channel.unary_unary(
+        '/Book/Add',
+        request_serializer=helloworld__pb2.AddRequest.SerializeToString,
+        response_deserializer=helloworld__pb2.AddReply.FromString,
+        )
+    self.Remove = channel.unary_unary(
+        '/Book/Remove',
+        request_serializer=helloworld__pb2.RemoveRequest.SerializeToString,
+        response_deserializer=helloworld__pb2.RemoveReply.FromString,
+        )
+    self.Consult = channel.unary_unary(
+        '/Book/Consult',
+        request_serializer=helloworld__pb2.ConsultRequest.SerializeToString,
+        response_deserializer=helloworld__pb2.ConsultReply.FromString,
         )
 
 
-class GreeterServicer(object):
+class BookServicer(object):
   """interface de serviço
   """
 
-  def SayHello(self, request, context):
+  def Add(self, request, context):
+    # missing associated documentation comment in .proto file
+    pass
+    context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+    context.set_details('Method not implemented!')
+    raise NotImplementedError('Method not implemented!')
+
+  def Remove(self, request, context):
+    # missing associated documentation comment in .proto file
+    pass
+    context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+    context.set_details('Method not implemented!')
+    raise NotImplementedError('Method not implemented!')
+
+  def Consult(self, request, context):
     # missing associated documentation comment in .proto file
     pass
     context.set_code(grpc.StatusCode.UNIMPLEMENTED)
@@ -33,14 +57,24 @@ class GreeterServicer(object):
     raise NotImplementedError('Method not implemented!')
 
 
-def add_GreeterServicer_to_server(servicer, server):
+def add_BookServicer_to_server(servicer, server):
   rpc_method_handlers = {
-      'SayHello': grpc.unary_unary_rpc_method_handler(
-          servicer.SayHello,
-          request_deserializer=helloworld__pb2.HelloRequest.FromString,
-          response_serializer=helloworld__pb2.HelloReply.SerializeToString,
+      'Add': grpc.unary_unary_rpc_method_handler(
+          servicer.Add,
+          request_deserializer=helloworld__pb2.AddRequest.FromString,
+          response_serializer=helloworld__pb2.AddReply.SerializeToString,
+      ),
+      'Remove': grpc.unary_unary_rpc_method_handler(
+          servicer.Remove,
+          request_deserializer=helloworld__pb2.RemoveRequest.FromString,
+          response_serializer=helloworld__pb2.RemoveReply.SerializeToString,
+      ),
+      'Consult': grpc.unary_unary_rpc_method_handler(
+          servicer.Consult,
+          request_deserializer=helloworld__pb2.ConsultRequest.FromString,
+          response_serializer=helloworld__pb2.ConsultReply.SerializeToString,
       ),
   }
   generic_handler = grpc.method_handlers_generic_handler(
-      'Greeter', rpc_method_handlers)
+      'Book', rpc_method_handlers)
   server.add_generic_rpc_handlers((generic_handler,))
